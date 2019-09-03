@@ -20,6 +20,6 @@ git commit -m 'deployB'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 
-git push -f git@github.com:Theojkydbz/vue-todo.git master:gh-pages
+git push -f git@github.com:Theojkydbz/vue-todo.git master
 
 cd -
