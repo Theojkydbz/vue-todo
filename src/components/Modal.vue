@@ -53,8 +53,7 @@ export default {
   height: 100%;
   overflow: auto; // enable scroll if needed
 
-  background-color: rgba(0, 0, 0, 0.4);
-
+  background-color: rgba(236, 236, 236, 0.664);
   &-content{
     margin: 15% auto;
     padding: 20px;
@@ -63,6 +62,8 @@ export default {
     background-color: #fefefe;
     //border: 1px solid #888;
     text-align: left;
+    box-shadow: 0 3px 8px 0 rgba(154, 154, 154, 0.452);
+    border-radius: 10px
   }
 
   &.is-active{

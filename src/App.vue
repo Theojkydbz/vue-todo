@@ -6,6 +6,7 @@
         <div class="todo-create-btn-container">
           <TodoCreate @formSubmitted="createTodo"/>
         </div>
+        <p class="signature">Made with <img class="logo" src="./assets/logo.png" width="20px" height="20px" /> by Théo Geiller</p>
       </div>
     </div>
   </div>
@@ -52,6 +53,15 @@ $color-red: red;
   margin-top: 60px;
 }
 
+.logo{
+  margin-bottom: -5px;
+}
+.signature{
+  margin-bottom: 20px;
+  
+  color: rgb(153, 153, 153);
+  text-align: center;
+}
 .app-error{
   color: #ff5d5d;
 }
@@ -93,14 +103,14 @@ $color-red: red;
       }
     }
     &.is-warning{
-      background-color: #86ad58;
+      background-color: #5cac5a;
       margin: 0px 5px 0px 0px;
       &:hover{
           background-color: #54742f;
       }
     }
     &.is-danger{
-      background-color: #8d8d8d;
+      background-color: #757575;
       &:hover{
           background-color: #535353;
       }
@@ -130,6 +140,7 @@ $color-red: red;
     /* flex-direction: column; */
     width: 100%;
     /* height: 2000px */
+    
   }
 
   &-container{
@@ -138,8 +149,9 @@ $color-red: red;
     width: 400px;
     min-height: 205px;
 
-    background-color: #ededed;
+    background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 0 3px 8px 0 rgba(154,154,154,.32);
   }
 
   &-create{

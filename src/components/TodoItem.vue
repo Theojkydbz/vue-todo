@@ -98,11 +98,11 @@ export default {
             margin: 10px;
             padding: 10px;
 
-            background-color: gray;
-            color: white;
+            background-color: rgb(255, 255, 255);
+            color: rgb(153, 153, 153);
             border-radius: 5px;
             font-size: 23px;
-
+			box-shadow: 0 3px 8px 0 rgba(154,154,154,.32);
             &-content{
 				margin-bottom: 10px;
 
